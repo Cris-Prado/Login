@@ -1,3 +1,4 @@
 ## Login ##
 
-<img src="/Screenshot_1.png" style="width: 100%"; heigth: 50%;>
+
+![Screenshot_1](https://user-images.githubusercontent.com/82547379/160900211-bda316ce-5faa-410e-b5f6-4161995a05fc.png)
