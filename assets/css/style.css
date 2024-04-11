@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    width: 100vw;
+    position: relative;
+}
+
+.img-fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: url('/assets/img/Fundo.jpg');
+    background-size: 155% 155%;
+    background-repeat: round;
+    background-color: rgba(0, 0, 0, 0.685);
+    background-blend-mode: darken;
+    filter: blur(3px);
+}
+
+.container{
+    position: absolute;
+    height: 550px;
+    width: 425px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    background-color: #000000;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    height: 15%;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    height: 15%;
+    width: 100%;
+}
+
+.form{
+    width: 100%;
+}
+
+.grupo{
+    width: 80%;
+}
+
+.label{
+    font-weight: 900;
+}
+.inp{
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 247, 247);
+}
+
+.inputs{
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0;
+    outline: none;
+    background: transparent;
+    width: 80%;
+    height: 100%;
+}
+
+.inputs::placeholder{
+    font-weight: 900;
+}
+
+.cool-icons{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.sessao{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sec span{
+    text-indent: -9.5rem;
+}
+
+#check{
+    all:unset;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+#check:checked{
+    border: 1px solid rgb(184, 184, 252);
+    background-color: rgb(184, 184, 252);
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(115, 113, 245);
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70px;
+    height: 40px;
+}
+
+.botao:hover{
+    transition: 0.4s;
+    background: rgb(113, 245, 135);
+    box-shadow: 0 0px 10px 0px rgb(14, 153, 95);
+}
+.botao:active{
+    transition: 0.1s;
+    background: rgb(245, 113, 113);
+    box-shadow: 0 0px 10px 0px rgb(153, 14, 14);
+}
+
+.fool a {
+    color: white;
+    font-weight: 900;
+}
+
+.fool a:hover{
+    color: red;
+}
